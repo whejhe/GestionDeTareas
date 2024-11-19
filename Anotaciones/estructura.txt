@@ -1,0 +1,20 @@
+TaskManagerApp/
+├── App.js
+├── navigation/
+│   ├── MainStack.js
+│   ├── TabNavigation.js
+│   └── DrawerNavigation.js
+├── screens/
+│   ├── HomeScreen.js
+│   ├── AddTaskScreen.js
+│   ├── TaskDetailsScreen.js
+│   └── SettingsScreen.js
+├── components/
+│   ├── TaskCard.js
+│   └── CustomButton.js
+├── styles/
+│   └── globalStyles.js
+├── services/
+│   └── api.js
+└── utils/
+    └── storage.js
