@@ -2,6 +2,8 @@ npm uninstall -g expo-cli (expo global esta deprecado)
 
 npx create-expo-app@latest --template blank
 
+npm install yarn
+
 Instala las librerías esenciales de navegación (React Navigation y sus dependencias):
 npx expo install react-navigation 
 npx expo install @react-navigation/native
@@ -11,7 +13,6 @@ npx expo install react-native-safe-area-context
 npx expo install react-native-reanimated 
 npx expo install react-native-vector-icons 
 npx expo install react-native-get-random-values
-
 
 Librerías específicas de navegación:
 npx expo install @react-navigation/native-stack 
@@ -30,6 +31,9 @@ yarn add axios
 
 Instala las librerías para almacenamiento local (Async Storage):
 npx expo install @react-native-async-storage/async-storage
+
+Otras:
+yarn add react-icons
 
 Elimina el archivo package-lock.json:
 rm package-lock.json
