@@ -11,11 +11,12 @@ export default function TabNavigation() {
         <Tab.Navigator
             screenOptions={{
                 activeTintColor: '#e91e63',
+                headerShown: false
             }}
         >
             <Tab.Screen name="Tasks" component={HomeScreen}
                 options={{
-                    tabBarLabel: 'Tasks',
+                    tabBarLabel: () => null,
                     tabBarIcon: ({ color, size }) => (
                         <MaterialCommunityIcons name="format-list-bulleted" color={color} size={size} />
                     ),
@@ -23,7 +24,7 @@ export default function TabNavigation() {
             />
             <Tab.Screen name="Add Task" component={AddTaskScreen}
                 options={{
-                    tabBarLabel: 'Add Tasks',
+                    tabBarLabel: () => null,
                     tabBarIcon: ({ color, size }) => (
                         <MaterialCommunityIcons name="plus" color={color} size={size} />
                     ),
